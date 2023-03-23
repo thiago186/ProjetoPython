@@ -5,7 +5,7 @@ class LoginWindow:
         self.master = master
         master.title("Login")
 
-        self.username_label = tk.Label(master, text="Username:")
+        self.username_label = tk.Label(master, text="Usuário:")
         self.username_label.pack()
 
         self.username_entry = tk.Entry(master)
